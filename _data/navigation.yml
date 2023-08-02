@@ -13,7 +13,7 @@ main:
     url: /portfolio/
         
   - title: "Blog Posts"
-   url: /year-archive/
+    url: /posts/
     
   - title: "CV"
     url: /files/Shani_Israelov_CV.pdf
