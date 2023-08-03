@@ -1,6 +1,6 @@
 ---
 title: "Speckle Reduction for Improved Classification"
-excerpt: "Short description of portfolio item number 1<br/><img src='./../images/Speckle_Pic_1.png' width="250"/>"
+excerpt: "Short description of portfolio item number 1<br/><img src='./../images/Speckle_Pic_1.png'>"
 collection: portfolio
 type: "BSc Final Project A"
 date: 2020-08-01

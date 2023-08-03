@@ -1,6 +1,6 @@
 ---
 title: "Creating Segmentation Maps using Style GAN"
-excerpt: "Short description of portfolio item number 1<br/><img src='https://www.cityscapes-dataset.com/wordpress/wp-content/uploads/2015/07/zuerich00.png' width="250"/>"
+excerpt: "Short description of portfolio item number 1<br/><img src='https://www.cityscapes-dataset.com/wordpress/wp-content/uploads/2015/07/zuerich00.png'>"
 collection: portfolio
 type: "BSc Final Project B"
 date: 2021-06-01

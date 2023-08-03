@@ -1,6 +1,6 @@
 ---
 title: "Autonomous Exploration with Virtual Reality Visualization"
-excerpt: "Short description of portfolio item number 1<br/><img src='https://img.youtube.com/vi/dvud4rTNY1E/0.jpg' width="250"/>"
+excerpt: "Short description of portfolio item number 1<br/><img src='https://img.youtube.com/vi/dvud4rTNY1E/0.jpg'>"
 collection: portfolio
 type: "MSc Robotics and XR Project"
 date: 2022-12-01
