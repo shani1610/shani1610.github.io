@@ -1,6 +1,6 @@
 ---
 title: "Les Furnitures"
-excerpt: "Short description of portfolio item number 1<br/><img src='https://github.com/AryamanSharma17/ScenRec/blob/master/Resource/Gitimage_all.jpg'>"
+excerpt: "Short description of portfolio item number 1<br/><img src='./../images/les_furniture.png'>"
 collection: portfolio
 type: "MSc Complex Computer Rendering Project"
 date: 2023-06-10
