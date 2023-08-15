@@ -18,6 +18,7 @@ Before pursuing my master's degree, I had the privilege of working at [Qualcomm]
 
 In 2021, I proudly received my bachelor's degree in Electrical and Computers Engineering from [Technion – Israel Institute of Technology](https://ece.technion.ac.il/). During my undergraduate years, I actively contributed to the research community, collaborating on projects like *StyleGAN* at [SIPL Lab](https://sipl.eelabs.technion.ac.il/) and *Image Denoising* at [VISL Lab](https://visl.technion.ac.il/). These experiences have shaped my academic journey and deepened my enthusiasm for computer vision and image processing and their applications.
 
-Recognizing my dedication and potential, I was honored to be awarded the Erasmus Mundus Joint Master Degree (EMJMD) Student Scholarhship, funded by the Erasmus+ program of the European Union. This scholarship has opened doors to exceptional learning opportunities, allowing me to engage with diverse perspectives and foster international collaborations.
+Recognizing my dedication and potential, I was honored to be awarded the **Erasmus Mundus Joint Master Degree (EMJMD) Student Scholarhship**, funded by the Erasmus+ program of the European Union. This scholarship has opened doors to exceptional learning opportunities, allowing me to engage with diverse perspectives and foster international collaborations.
 
 I am excited about the future prospects in computer vision and the transformative impact of Extended Reality. If you share similar interests or have any questions, I'd love to connect with you! Feel free to reach out to me via email. 
+
