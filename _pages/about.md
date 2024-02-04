@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I'm a passionate and dedicated master's student in the Computer Science Department at Toyohashi University of Technology, Japan. I am currently pursuing my degree as part of the prestigious Erasmus Mundus Japan program – [Master of Science in Imaging and Light in Extended Reality (IMLEX)](https://imlex.org/).
+I'm a dedicated master's student pursuing my degree as part of the prestigious Erasmus Mundus Japan program – [Master of Science in Imaging and Light in Extended Reality (IMLEX)](https://imlex.org/).
+I am presently engaged in my MSc thesis at the [VisualAI lab](https://val.cs.tut.ac.jp/) in the Computer Science Department of Toyohashi University of Technology, Japan, under the supervision of [Kuriyama-Sensei](https://www.tut.ac.jp/english/schools/faculty/cs/164.html).
 
 The IMLEX program is a unique blend of image conversion, lighting, and computer science, offered collaboratively by a consortium of four esteemed universities: University of Eastern Finland, Toyohashi University of Technology (Japan), University Jean Monnet Saint-Etienne (France), and KU Leuven (Belgium).
 
