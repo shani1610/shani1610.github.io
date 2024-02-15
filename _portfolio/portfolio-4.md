@@ -1,6 +1,6 @@
 ---
 title: "Les Furnitures"
-excerpt: "Short description of portfolio item number 1<br/><img src='./../images/les_furniture.png'>"
+excerpt: "3D Room Representation using a single image, By using GroundingDINO and SegmentAnything we detect the furniture and by using ZoeDepth or LeReS we calculate the relative depth <br/><img src='./../images/les_furniture.png'>"
 collection: portfolio
 type: "MSc Complex Computer Rendering Project"
 date: 2023-06-10

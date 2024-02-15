@@ -1,6 +1,6 @@
 ---
 title: "Human Perceptual Weight Judgment"
-excerpt: "Short description of portfolio item number 1<br/><img src='./../images/case_study.png'>"
+excerpt: "Our hypothesis is that the feet plays a pivotal role in human perceptual weight judgment. To test this, we conducted an psychophysical experiment where subjects lifted boxes of varying weights and participantes were requested to estimated the box weight <br/><img src='./../images/case_study.png'>"
 collection: portfolio
 type: "XR Case Study"
 date: 2024-02-07

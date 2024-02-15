@@ -1,6 +1,6 @@
 ---
 title: "Creating Segmentation Maps using Style GAN"
-excerpt: "Short description of portfolio item number 1<br/><img src='./../images/StyleGAN.png'>"
+excerpt: "created a segmentation map using StyleGAN and then created a realistic image from it by the help of SPADE. In the next stage we compared ,by FID and visually, our training process results <br/><img src='./../images/StyleGAN.png'>"
 collection: portfolio
 type: "BSc Final Project B"
 date: 2021-06-01
