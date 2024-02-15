@@ -1,6 +1,6 @@
 ---
 title: "Autonomous Exploration with Virtual Reality Visualization"
-excerpt: "autonomous exploration algorithms implemented in a mobile robot with a virtual reality environment for visualizing collected data <br/><img src='./../images/XRplorer.png''>"
+excerpt: "autonomous exploration algorithms implemented in a mobile robot with a virtual reality environment for visualizing collected data <br/><img src='./../images/XRplorer.png'>"
 collection: portfolio
 type: "MSc Robotics and XR Project"
 date: 2022-12-01
