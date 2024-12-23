@@ -8,24 +8,30 @@ redirect_from:
   - /about.html
 ---
 
-I'm a dedicated master's student pursuing my degree as part of the prestigious Erasmus Mundus Japan program – [Master of Science in Imaging and Light in Extended Reality (IMLEX)](https://imlex.org/).
-I am presently engaged in my MSc thesis at the [VisualAI lab](https://val.cs.tut.ac.jp/) in the Computer Science Department of Toyohashi University of Technology, Japan, under the supervision of [Kuriyama-Sensei](https://www.tut.ac.jp/english/schools/faculty/cs/164.html).
+I am a Computer Science master's graduate from the [IMLEX - Erasmus Mundus Japan program](https://imlex.org/), specializing in **Computer Vision** and **Machine Learning**. I completed my thesis on Generative AI at the [VisualAI lab](https://val.cs.tut.ac.jp/) under the supervision of [Kuriyama-Sensei](https://www.tut.ac.jp/english/schools/faculty/cs/164.html) at Toyohashi University of Technology, Japan.
 
-The IMLEX program is a unique blend of image conversion, lighting, and computer science, offered collaboratively by a consortium of four esteemed universities: University of Eastern Finland, Toyohashi University of Technology (Japan), University Jean Monnet Saint-Etienne (France), and KU Leuven (Belgium).
+Previously, I worked at [Qualcomm](https://www.qualcomm.com/) as an **Algorithm and System Engineer**, focusing on signal processing. I hold a B.Sc. in Electrical and Computer Engineering from [Technion – Israel Institute of Technology](https://ece.technion.ac.il/).
 
-My research interests lie at the intersection of **Computer Vision** and **Machine Learning**, with a specific focus on **Extended Reality**. I am captivated by the boundless possibilities that Extended Reality presents, and I'm determined to contribute to its advancement through cutting-edge research and innovation.
+I am passionate about advancing Computer Vision and its applications in solving real-world challenges. Let’s connect if you share similar interests!
 
-Before pursuing my master's degree, I had the privilege of working at [Qualcomm](https://www.qualcomm.com/) as an **Algorithm and System Engineer**, where I delved into fascinating projects centered around signal processing and 5G technology. 
+## Technical Skills
 
-In 2021, I proudly received my bachelor's degree in Electrical and Computers Engineering from [Technion – Israel Institute of Technology](https://ece.technion.ac.il/). During my undergraduate years, I actively contributed to the research community, collaborating on projects like *StyleGAN* at [SIPL Lab](https://sipl.eelabs.technion.ac.il/) and *Image Denoising* at [VISL Lab](https://visl.technion.ac.il/). These experiences have shaped my academic journey and deepened my enthusiasm for computer vision and image processing and their applications.
+### Programming Languages:
+![Python](https://img.shields.io/badge/Python-blue?logo=python)  
+![MATLAB](https://img.shields.io/badge/MATLAB-orange?logo=mathworks)  
+![C++](https://img.shields.io/badge/C++-blue?logo=cplusplus)
 
-Recognizing my dedication and potential, I was honored to be awarded the **Erasmus Mundus Joint Master Degree (EMJMD) Student Scholarhship**, funded by the Erasmus+ program of the European Union. This scholarship has opened doors to exceptional learning opportunities, allowing me to engage with diverse perspectives and foster international collaborations.
+### Python Libraries and Frameworks:
+![PyTorch](https://img.shields.io/badge/PyTorch-red?logo=pytorch)  
+![OpenCV](https://img.shields.io/badge/OpenCV-green)  
+![Numpy](https://img.shields.io/badge/Numpy-blue?logo=numpy)  
+![Pandas](https://img.shields.io/badge/Pandas-purple?logo=pandas)  
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-orange)  
+![Diffusers](https://img.shields.io/badge/Diffusers-lightblue)
 
-I am excited about the future prospects in computer vision and the transformative impact of Extended Reality. If you share similar interests or have any questions, I'd love to connect with you! Feel free to reach out to me via email. 
-
-## Technologies I Work With
-
-- ![Python](https://img.shields.io/badge/Python-blue?logo=python) Python
-- ![MATLAB](https://img.shields.io/badge/MATLAB-orange?logo=mathworks) MATLAB
-- ![C++](https://img.shields.io/badge/C++-blue?logo=cplusplus)
-- ![Docker](https://img.shields.io/badge/Docker-lightblue?logo=docker)
+### Tools and Technologies:
+![Docker](https://img.shields.io/badge/Docker-lightblue?logo=docker)  
+![Git](https://img.shields.io/badge/Git-orange?logo=git)  
+![Linux](https://img.shields.io/badge/Linux-yellow?logo=linux)  
+![Kubernetes](https://img.shields.io/badge/Kubernetes-blue?logo=kubernetes)  
+![CUDA](https://img.shields.io/badge/CUDA-green?logo=nvidia)
