@@ -23,3 +23,9 @@ Recognizing my dedication and potential, I was honored to be awarded the **Erasm
 
 I am excited about the future prospects in computer vision and the transformative impact of Extended Reality. If you share similar interests or have any questions, I'd love to connect with you! Feel free to reach out to me via email. 
 
+## Technologies I Work With
+
+- ![Python](https://img.shields.io/badge/Python-blue?logo=python) Python
+- ![MATLAB](https://img.shields.io/badge/MATLAB-orange?logo=mathworks) MATLAB
+- ![C++](https://img.shields.io/badge/C++-blue?logo=cplusplus)
+- ![Docker](https://img.shields.io/badge/Docker-lightblue?logo=docker)
