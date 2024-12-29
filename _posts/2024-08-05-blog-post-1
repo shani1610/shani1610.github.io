@@ -1,0 +1,73 @@
+---
+title: 'Diffusion Models for Virtual Try-On'
+date: 2024-08-05
+permalink: /posts/2024/08/blog-post-1/
+tags:
+  - generativeai
+---
+
+## Virtual Try-On
+
+VITON, proposed in 2018, is an image-based virtual try-on approach relying solely on plain RGB images without leveraging any 3D information. Its objective is to synthesize a photo-realistic new image by seamlessly overlaying a product image onto the corresponding region of a clothed person.
+
+### Clothing-Agnostic Representation
+
+A clothing-agnostic representation is introduced, consisting of a comprehensive set of features describing various characteristics of a person. These features include pose, body parts, face, and hair. Pose information is explicitly modeled using a pose estimator (OpenPose), representing the pose as the coordinates of 18 keypoints. Each keypoint is transformed into a heatmap, with a neighborhood around the keypoint filled in. These heatmaps are then stacked into an 18-channel pose heatmap.
+
+A human parser computes a human segmentation map and converts it into a mask. Additionally, the human parser extracts the RGB channels of face and hair regions to incorporate this information when generating new images. Finally, these three feature maps are resized to the same resolution and concatenated to form a clothing-agnostic person representation \( p \).
+
+**Pose Estimator: OpenPose**  
+<img src="/images/vot/open_pose_pipe.png" alt="drawing" width="200"/>
+
+**Human Parsing: Look Into a Person**  
+<img src="/images/vot/human_parsing.png" alt="drawing" width="200"/>
+
+### Synthesizing the Reference Image
+
+Conditioned on this representation \( p \) and the target clothing image \( c \), a multi-task encoder-decoder network generates a coarse synthetic clothed person in the same pose wearing the target clothing item, along with a corresponding clothing region mask. The encoder-decoder architecture is based on U-Net with skip connections. The loss function combines a perceptual loss and an L1 loss.
+
+**Loss Function**  
+<img src="/images/vot/loss_function.png" alt="drawing" width="200"/>
+
+Here, \( \phi \) indicates the feature map, \( I' \) the generated image, \( I \) the reference image, \( M \) the segmentation mask of the clothing region, and \( M_0 \) the ground truth mask predicted from \( I \). Missing details, such as text or logos, are refined in the subsequent steps.
+
+### Wrapping
+
+Details from the target clothing image are directly borrowed to fill in the coarse sample's generated region. To adapt the clothing item to the human pose and body shape, thin plate spline (TPS) transformation is estimated using shape context matching. The clothing region mask guides the warping process to handle deformations.
+
+**TPS Wrapping**  
+<img src="/images/vot/wrap.png" alt="drawing" width="200"/>
+
+### Refinement Network
+
+A refinement network is trained to learn how to composite the warped clothing item onto the coarse image, ensuring the desired item is transferred with natural deformations and detailed visual patterns. This network generates a composition mask, indicating how much information is utilized from the warped clothing item and the coarse image.
+
+**Refinement**  
+<img src="/images/vot/refinement.png" alt="drawing" width="200"/>
+
+---
+
+## Diffusion Models for Virtual Try-On
+
+### Diffusion Model Applications
+
+Using Kolors Virtual Try-On, sample results demonstrate that certain features (e.g., face, background, and top of the hair) remain consistent, while areas such as the neck, lower hair, and hand positions are transformed.
+
+**Sample Output**  
+<img src="/images/vot/sample1.png" alt="drawing" width="200"/>
+
+### Video Diffusion Model for Virtual Try-On
+
+Video-based try-on models face challenges in preserving garment details like fabric dynamics and achieving temporal consistency, especially with varying poses or occluded regions. Acquiring perfect ground truth data, such as two videos of different people wearing the same garment while moving identically, is difficult and expensive.
+
+A recent breakthrough [Zhu et al., 2023] employs diffusion models that implicitly warp input garments under large pose gaps and heavy occlusion using spatial cross-attention. However, applying these methods frame-by-frame can result in severe flickering artifacts and temporal inconsistencies.
+
+### Addressing Temporal Consistency
+
+Longer video generation faces challenges such as maintaining temporal consistency while adhering to computational and memory constraints. Prior approaches utilize cascaded methods, sliding window inference, or past-frame conditioning but often fail to generate consistent and artifact-free outputs.
+
+Inspired by techniques in context modeling for LLMs, short-video generation models can be extended for long-video generation through temporally progressive fine-tuning schemes. For example, inflating the M&M VTO architecture with 3D convolution and temporal attention blocks enables maintaining temporal consistency in videos up to 64 frames long using a single network.
+
+**Conclusion**
+
+Traditional image virtual try-on approaches involve warping the target garment onto the input person and refining the result. For video try-on, past methods often rely on multiple networks to predict intermediate values like optical flow, background masks, and occlusion masks, making diffusion-based methods a promising alternative.
