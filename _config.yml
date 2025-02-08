@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Shani's Homepage"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Shani Israelov"
 description              : &description "personal description"
