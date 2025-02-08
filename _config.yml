@@ -248,6 +248,15 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # _studyabroad
+  - scope:
+      path: ""
+      type: studyabroad
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
   # _talks
   - scope:
       path: ""

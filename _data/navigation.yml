@@ -14,7 +14,10 @@ main:
         
   - title: "Blog Posts"
     url: /year-archive/
-    
+
+  - title: "Study Abroad"
+    url: /studyabroad/
+
   - title: "CV"
     url: /files/Shani_Israelov_CV.pdf
     
